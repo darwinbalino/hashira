@@ -1,16 +1,12 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@taiwlind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+@layer components {
+  input[type="text"]:focus ~ .input-text,
+  input[type="text"]:not(:placeholder-shown) ~ .input-text {
+    @apply text-gray-400 transform  -translate-y-6 -translate-x-2 scale-75;
+  }
+  /* input[type="text"]:not(:empty) ~ .input-text {
+    @apply text-black transform translate-y-10 translate-x-2 scale-100; */
 }
