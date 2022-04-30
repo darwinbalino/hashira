@@ -15,19 +15,19 @@ export default function Manifesto() {
               <p>Breaking down barriers.</p>
               <p>Building open communities.</p>
               <p>Creating magic internet money with our friends.</p>
-              <p>To those who don't get it, we tell them: gm.</p>
-              <p>They'll come around eventually.</p>
+              <p>To those who don&apos;t get it, we tell them: gm.</p>
+              <p>They&apos;ll come around eventually.</p>
             </div>
             <div>
               <p>
-                Here's to the ones with the courage to jump down a peculiar
+                Here&apos;s to the ones with the courage to jump down a peculiar
                 rabbit hole.
               </p>
               <p>
-                One that pulls you away from a world that's created by many and
-                owned by few...
+                One that pulls you away from a world that&apos;s created by many
+                and owned by few...
               </p>
-              <p>To a world that's created by more and owned by all.</p>
+              <p>To a world that&apos;s created by more and owned by all.</p>
               <p>
                 From The Garden come the human beans that sprout into your
                 family.

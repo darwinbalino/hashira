@@ -15,12 +15,12 @@ export default function Positions() {
                 fill="currentColor"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 />
               </svg>
-              <Link href="/careers">
+              <Link href="/careers" passHref>
                 <h1 className="">ALL CAREERS</h1>
               </Link>
             </div>
@@ -33,21 +33,21 @@ export default function Positions() {
             <div className="flex items-center space-x-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6"
+                className="w-6 h-6"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="1"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="1"
                   d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
                 />
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="1"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="1"
                   d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                 />
               </svg>
@@ -56,15 +56,15 @@ export default function Positions() {
             <div className="flex items-center space-x-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6"
+                className="w-6 h-6"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="1"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="1"
                   d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                 />
               </svg>
@@ -75,7 +75,7 @@ export default function Positions() {
         {/* Description */}
         <section className="pb-3 text-xl leading-loose tracking-wide bg-gray-100 ">
           <div className="px-8 space-y-5 py-14">
-            <h1 className="">
+            <h1>
               Hashira is the corner of the internet where art, community, and
               culture fuse to create magic. We are the skaters of the internet,
               and we’re not afraid to push the boundaries. The lines between the

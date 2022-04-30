@@ -9,7 +9,7 @@ const MobileMenu = () => {
   return (
     <div className="flex flex-col space-y-4 font-black text-2.5xl px-6 pt-4">
       {/* <div className="flex relative flex-col backdrop-blur-xl space-y-4 font-black text-2.5xl px-6 pt-24"></div> */}
-      <Link href="/" className="">
+      <Link href="/" passHref>
         <div
           className="w-full pb-3 border-b border-gray-400 cursor-pointer"
           onClick={() => toggleMenu(!menu)}
@@ -17,7 +17,7 @@ const MobileMenu = () => {
           HOME
         </div>
       </Link>
-      <Link href="/gallery" className="">
+      <Link href="/gallery" className="" passHref>
         <div
           className="w-full pb-3 border-b border-gray-400 cursor-pointer"
           onClick={() => toggleMenu(!menu)}
@@ -27,7 +27,7 @@ const MobileMenu = () => {
       </Link>
       {/* Fix rest of em */}
 
-      <Link href="/" className="">
+      <Link href="/" passHref>
         <div
           onClick={() => toggleMenu(!menu)}
           className="w-full pb-3 border-b border-gray-400 cursor-pointer"
@@ -35,7 +35,7 @@ const MobileMenu = () => {
           THE GARDEN
         </div>
       </Link>
-      <Link href="/careers" className="">
+      <Link href="/careers" passHref>
         <div
           className="w-full pb-3 border-b border-gray-400 cursor-pointer"
           onClick={() => toggleMenu(!menu)}
@@ -44,7 +44,7 @@ const MobileMenu = () => {
         </div>
       </Link>
 
-      <Link href="/manifesto" className="">
+      <Link href="/manifesto" passHref>
         <div
           onClick={() => toggleMenu(!menu)}
           className="w-full pb-3 border-b border-gray-400 cursor-pointer"

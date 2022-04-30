@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { animated, config, useSpring, useTransition } from "react-spring";
+import { animated, config, useSpring } from "react-spring";
 import useStore from "../store";
 import MobileMenu from "./MobileMenu";
 
@@ -11,11 +11,6 @@ export default function ContainerGallery({ children, sidebar }) {
     opacity: menu ? 0 : 1,
     config: config.molasses,
   });
-  const transition = useTransition(menu, {
-    from: { opacity: 0 },
-    to: { opacity: 1 },
-    leave: { opacity: 0 },
-  });
 
   return (
     <div className={`${!menu ? "bg-white opacity-100" : "bg-gray-50"}`}>
@@ -25,7 +20,7 @@ export default function ContainerGallery({ children, sidebar }) {
             !menu ? "" : "bg-gray-50"
           }`}
         >
-          <Link href="/">
+          <Link href="/" passHref>
             <h1 className="text-yellow-50 font-black text-xl bg-lightblue py-1 px-2.5 rounded-lg cursor-pointer hover:bg-darkblue hover:text-yellow-75">
               HASHIRA
             </h1>
@@ -41,8 +36,8 @@ export default function ContainerGallery({ children, sidebar }) {
                 strokeWidth="1.3"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M4 6h16M4 12h16m-7 6h7"
                 />
               </svg>
@@ -55,9 +50,9 @@ export default function ContainerGallery({ children, sidebar }) {
                 stroke="currentColor"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="1.25"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="1.25"
                   d="M6 18L18 6M6 6l12 12"
                 />
               </svg>

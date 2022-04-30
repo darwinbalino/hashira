@@ -15,24 +15,24 @@ export default function Careers() {
             CALLING ALL SKATERS
           </h1>
           <h1 className="text-xl leading-relaxed text-gray-300">
-            We're looking for creative builders, makers, and doers. The ones who
-            share our passion for web3, art, and culture. We're building for an
-            open metaverse. Hope you don't mind breaking a few rules along the
-            way.
+            We&apos;re looking for creative builders, makers, and doers. The
+            ones who share our passion for web3, art, and culture. We&apos;re
+            building for an open metaverse. Hope you don&apos;t mind breaking a
+            few rules along the way.
           </h1>
           <Scroll to="footer" className="self-center">
             <button className="flex items-center px-8 py-5 space-x-2 text-sm text-gray-200 bg-gray-900 rounded-lg ">
               <h1 className="tracking-widest text-gray-50">OPEN POSITIONS</h1>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-4"
+                className="h-4"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M14.707 12.293a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l2.293-2.293a1 1 0 011.414 0z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 />
               </svg>
             </button>
@@ -102,7 +102,7 @@ export default function Careers() {
       {/* POSITIONS */}
       <div className="text-xl leading-loose tracking-wide bg-gray-50">
         <div className="space-y-1">
-          <Link href="/positions/artist">
+          <Link href="/positions/artist" passHref>
             <div className="flex items-center justify-between py-6 pl-8 pr-4 bg-gray-100 cursor-pointer group">
               <div className="-space-y-1 tracking-wider">
                 <h1 className="font-extrabold text-darkblue">ARTIST</h1>
@@ -119,16 +119,16 @@ export default function Careers() {
                   fill="currentColor"
                 >
                   <path
-                    stroke-width="1"
-                    fill-rule="evenodd"
+                    strokeWidth="1"
+                    fillRule="evenodd"
                     d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
               </div>
             </div>
           </Link>
-          <Link href="/positions/art-director">
+          <Link href="/positions/art-director" passHref>
             <div className="flex items-center justify-between py-6 pl-8 pr-4 bg-gray-100 cursor-pointer group">
               <div className="-space-y-1 tracking-wider">
                 <h1 className="font-extrabold text-darkblue">
@@ -147,16 +147,16 @@ export default function Careers() {
                   fill="currentColor"
                 >
                   <path
-                    stroke-width="1"
-                    fill-rule="evenodd"
+                    strokeWidth="1"
+                    fillRule="evenodd"
                     d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
               </div>
             </div>
           </Link>
-          <Link href="/positions/engineer">
+          <Link href="/positions/engineer" passHref>
             <div className="flex items-center justify-between py-6 pl-8 pr-4 bg-gray-100 cursor-pointer group">
               <div className="-space-y-1 tracking-wider">
                 <h1 className="font-extrabold text-darkblue">
@@ -175,16 +175,16 @@ export default function Careers() {
                   fill="currentColor"
                 >
                   <path
-                    stroke-width="1"
-                    fill-rule="evenodd"
+                    strokeWidth="1"
+                    fillRule="evenodd"
                     d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
               </div>
             </div>
           </Link>
-          <Link href="/positions/marketing-manager">
+          <Link href="/positions/marketing-manager" passHref>
             <div className="flex items-center justify-between py-6 pl-8 pr-4 bg-gray-100 cursor-pointer group">
               <div className="-space-y-1 tracking-wider">
                 <h1 className="font-extrabold text-darkblue">
@@ -203,16 +203,16 @@ export default function Careers() {
                   fill="currentColor"
                 >
                   <path
-                    stroke-width="1"
-                    fill-rule="evenodd"
+                    strokeWidth="1"
+                    fillRule="evenodd"
                     d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
               </div>
             </div>
           </Link>
-          <Link href="/positions/designer">
+          <Link href="/positions/designer" passHref>
             <div className="flex items-center justify-between py-6 pl-8 pr-4 bg-gray-100 cursor-pointer group">
               <div className="-space-y-1 tracking-wider">
                 <h1 className="font-extrabold text-darkblue">
@@ -231,10 +231,10 @@ export default function Careers() {
                   fill="currentColor"
                 >
                   <path
-                    stroke-width="1"
-                    fill-rule="evenodd"
+                    strokeWidth="1"
+                    fillRule="evenodd"
                     d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
               </div>

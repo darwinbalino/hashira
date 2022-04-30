@@ -30,9 +30,6 @@ export default function Gallery2({ properties }) {
     { id: 4, checked: false, label: "spirit" },
   ]);
 
-  // const handleSelectCategory = (event, value) =>
-  //   !value ? null : setSelectedCategory(value);
-
   const handleChangeChecked = (id) => {
     const typesStateList = types;
     const changeCheckedTypes = typesStateList.map((type) =>
@@ -119,7 +116,7 @@ export default function Gallery2({ properties }) {
                     10000
                   </span>
                 </h1>
-                <div class="flex space-x-4">
+                <div className="flex space-x-4">
                   {/* Shuffle Button*/}
                   <svg
                     onClick={() => setGoldFilter(!goldFilter)}
@@ -129,9 +126,9 @@ export default function Gallery2({ properties }) {
                     fill="currentColor"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M4 2a1 1 0 011 1v2.101a7.002 7.002 0 0111.601 2.566 1 1 0 11-1.885.666A5.002 5.002 0 005.999 7H9a1 1 0 010 2H4a1 1 0 01-1-1V3a1 1 0 011-1zm.008 9.057a1 1 0 011.276.61A5.002 5.002 0 0014.001 13H11a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0v-2.101a7.002 7.002 0 01-11.601-2.566 1 1 0 01.61-1.276z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     />
                   </svg>
                   {/* Filter Button */}
@@ -146,9 +143,9 @@ export default function Gallery2({ properties }) {
                       fill="currentColor"
                     >
                       <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M3 3a1 1 0 011-1h12a1 1 0 011 1v3a1 1 0 01-.293.707L12 11.414V15a1 1 0 01-.293.707l-2 2A1 1 0 018 17v-5.586L3.293 6.707A1 1 0 013 6V3z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       />
                     </svg>
                     <h1 className="font-mono tracking-wider text-tiny">
@@ -202,9 +199,9 @@ export default function Gallery2({ properties }) {
                   stroke="currentColor"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.25"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="1.25"
                     d="M6 18L18 6M6 6l12 12"
                   />
                 </svg>
@@ -220,6 +217,7 @@ export default function Gallery2({ properties }) {
                         className=""
                         height={34}
                         width={34}
+                        alt="type"
                       />
                       <h1>TYPE</h1>
                     </div>
@@ -273,6 +271,7 @@ export default function Gallery2({ properties }) {
                       className=""
                       height={34}
                       width={34}
+                      alt="special"
                     />
                     <h1>SPECIAL</h1>
                   </div>
@@ -285,6 +284,7 @@ export default function Gallery2({ properties }) {
                       className=""
                       height={34}
                       width={34}
+                      alt="clothing"
                     />
                     <h1>CLOTHING</h1>
                   </div>
@@ -297,6 +297,7 @@ export default function Gallery2({ properties }) {
                       className=""
                       height={34}
                       width={34}
+                      alt="offhand"
                     />
                     <h1>OFFHAND</h1>
                   </div>
@@ -309,6 +310,7 @@ export default function Gallery2({ properties }) {
                       className=""
                       height={34}
                       width={34}
+                      alt="hair"
                     />
                     <h1>HAIR</h1>
                   </div>
@@ -321,6 +323,7 @@ export default function Gallery2({ properties }) {
                       className=""
                       height={34}
                       width={34}
+                      alt="headgear"
                     />
                     <h1>HEADGEAR</h1>
                   </div>
@@ -333,6 +336,7 @@ export default function Gallery2({ properties }) {
                       className=""
                       height={34}
                       width={34}
+                      alt="face"
                     />
                     <h1>FACE</h1>
                   </div>
@@ -345,6 +349,7 @@ export default function Gallery2({ properties }) {
                       className=""
                       height={34}
                       width={34}
+                      alt="neck"
                     />
                     <h1>NECK</h1>
                   </div>
@@ -357,6 +362,7 @@ export default function Gallery2({ properties }) {
                       className=""
                       height={34}
                       width={34}
+                      alt="eyes"
                     />
                     <h1>EYES</h1>
                   </div>
@@ -369,6 +375,7 @@ export default function Gallery2({ properties }) {
                       className=""
                       height={34}
                       width={34}
+                      alt="mouth"
                     />
                     <h1>MOUTH</h1>
                   </div>
@@ -381,6 +388,7 @@ export default function Gallery2({ properties }) {
                       className=""
                       height={34}
                       width={34}
+                      alt="ear"
                     />
                     <h1>EAR</h1>
                   </div>
@@ -393,6 +401,7 @@ export default function Gallery2({ properties }) {
                       className=""
                       height={34}
                       width={34}
+                      alt="background"
                     />
                     <h1>BACKGROUND</h1>
                   </div>

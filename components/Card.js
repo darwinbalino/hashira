@@ -4,7 +4,7 @@ import React from "react";
 
 const Card = ({ id }) => {
   return (
-    <Link href={`/gallery/?id=${id}`}>
+    <Link href={`/gallery/?id=${id}`} passHref>
       <div className="cursor-pointer drop-shadow-2xl">
         <div className="">
           <Image
@@ -12,7 +12,7 @@ const Card = ({ id }) => {
             className="rounded-xl"
             height={484}
             width={484}
-            alt=""
+            alt="hashira"
           />
         </div>
         <div className="mt-3 tracking-widest text-center bg-transparent">
