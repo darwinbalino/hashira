@@ -21,21 +21,23 @@ export default function HomePage() {
               />
             </div>
             {/* Banner */}
-            <div className="relative bottom-32">
+            <div className="relative bottom-60 sm:bottom-32">
               <div className="relative z-10 flex justify-between h-24 mx-6 rounded-lg bg-darkblue drop-shadow-2xl">
                 <Image
                   src={"/job_illo.png"}
                   className="relative object-cover"
-                  alt=""
+                  alt="job_illo"
                   width={250}
                   height={300}
                 />
                 <Link href="/careers" passHref>
-                  <button className="flex items-center justify-between px-4 my-5 mr-4 space-x-4 bg-gray-100 cursor-pointer drop-shadow-2xl">
-                    <h1 className="font-bold font-xs">WE&apos;RE HIRING</h1>
+                  <button className="flex items-center justify-between px-2 my-5 mr-4 space-x-1 bg-gray-100 cursor-pointer sm:space-x-4 sm:px-4 drop-shadow-2xl">
+                    <h1 className="font-bold text-tiny sm:text-base ">
+                      WE&apos;RE HIRING
+                    </h1>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="h-6"
+                      className="h-8 sm:h-6"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >

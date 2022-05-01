@@ -18,7 +18,7 @@ export default function ContainerManifesto({ children }) {
         <header className="sticky top-0 z-20">
           <div className="flex items-center justify-between px-6 py-7">
             <Link href="/" passHref>
-              <h1 className="text-yellow-50 font-black text-xl bg-lightblue py-1 px-2.5 rounded-lg cursor-pointer hover:bg-darkblue hover:text-yellow-75">
+              <h1 className="text-yellow-50 font-black text-sm sm:text-xl bg-lightblue py-1 px-2 sm:px-2.5 rounded cursor-pointer hover:bg-darkblue hover:text-yellow-75">
                 HASHIRA
               </h1>
             </Link>
@@ -26,22 +26,22 @@ export default function ContainerManifesto({ children }) {
               {menu ? (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-10 text-white"
+                  className="text-gray-50 h-7 sm:h-10"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
-                  strokeWidth="1.3"
+                  strokeWidth="1.5"
                 >
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    d="M4 6h16M4 12h16m-7 6h7"
+                    d="M4 8h16M4 16h16"
                   />
                 </svg>
               ) : (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-10 text-white"
+                  className="text-gray-50 h-7 sm:h-10"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"

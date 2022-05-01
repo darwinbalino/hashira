@@ -4,11 +4,11 @@ export default function Manifesto() {
   return (
     <div className="h-screen bg-black text-gray-50">
       <ContainerManifesto>
-        <div className="px-6">
-          <h1 className="text-3xl font-black">
+        <div className="px-6 pb-48">
+          <h1 className="text-1.5xl sm:text-3xl font-black">
             THE MANIFESTO <span className="text-gray-600">//</span>
           </h1>
-          <section className="pt-8 space-y-8 font-mono leading-loose tracking-wider text-tiny">
+          <section className="pt-6 space-y-6 font-mono leading-loose tracking-wider sm:space-y-8 sm:pt-8 text-xxs sm:text-tiny">
             <div>
               <p>Here comes a new wave...</p>
               <p>And surfing here is different.</p>

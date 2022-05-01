@@ -5,9 +5,9 @@ export default function Positions() {
   return (
     <div className="bg-darkblue">
       <Container>
-        <section className="py-8 space-y-4 tracking-widest text-yellow-50 text-md px-7">
+        <section className="py-8 space-y-2 text-xs tracking-widest sm:space-y-4 text-yellow-50 sm:text-md px-7">
           <div className="max-w-[126px] cursor-pointer pb-3">
-            <div className="flex items-center space-x-1 text-sm text-blue-200 border-b border-blue-200">
+            <div className="flex items-center space-x-1 text-blue-300 border-b border-blue-400">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-3"
@@ -21,19 +21,19 @@ export default function Positions() {
                 />
               </svg>
               <Link href="/careers" passHref>
-                <h1 className="">ALL CAREERS</h1>
+                <h1 className="text-xs sm:text-base">ALL CAREERS</h1>
               </Link>
             </div>
           </div>
-          <h1 className="text-4xl font-black leading-tight">
+          <h1 className="text-2.75xl font-black leading-tight sm:text-4xl">
             DESIGNER, PRODUCT & MARKETING
           </h1>
-          <div className="flex items-center space-x-4 font-light">
+          <div className="flex items-center space-x-2 font-light sm:space-x-4">
             <h1>CREATIVE</h1>
             <div className="flex items-center space-x-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="w-6 h-6"
+                className="h-5 sm:h-6"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -56,7 +56,7 @@ export default function Positions() {
             <div className="flex items-center space-x-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="w-6 h-6"
+                className="h-5 sm:h-6"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -73,8 +73,8 @@ export default function Positions() {
           </div>
         </section>
         {/* Description */}
-        <section className="pb-3 text-xl leading-loose tracking-wide bg-gray-100 ">
-          <div className="px-8 space-y-5 py-14">
+        <section className="pb-3 text-base leading-loose tracking-wide bg-gray-100 sm:text-xl ">
+          <div className="px-6 py-10 space-y-3 sm:px-8 sm:space-y-5 sm:py-14">
             <h1>
               Hashira is the corner of the internet where art, community, and
               culture fuse to create magic. We are the skaters of the internet,
@@ -83,7 +83,7 @@ export default function Positions() {
               open metaverse. We’re bringing together the right team to help
               take us there.
             </h1>
-            <h1 className="font-extrabold">THE ROLE</h1>
+            <h1 className="font-extrabold sm:text-base">THE ROLE</h1>
             <h1>
               Our mission is to create the largest decentralized brand in the
               metaverse along with our community. We are seeking exceptional
@@ -92,7 +92,9 @@ export default function Positions() {
               web3 space. You will be working alongside a passionate team that
               is heavily experienced in crypto, big tech, and startups.
             </h1>
-            <h1 className="font-extrabold">THE IDEAL CANDIDATE WILL</h1>
+            <h1 className="font-extrabold sm:text-base">
+              THE IDEAL CANDIDATE WILL
+            </h1>
             <div>
               <div className="flex space-x-3">
                 <h1 className="font-black">•</h1>
@@ -154,7 +156,7 @@ export default function Positions() {
                 </h1>
               </div>
             </div>
-            <h1 className="font-extrabold">REQUIREMENTS</h1>
+            <h1 className="font-extrabold sm:text-base">REQUIREMENTS</h1>
             <div>
               <div className="flex space-x-3">
                 <h1 className="font-black">•</h1>
@@ -237,10 +239,13 @@ export default function Positions() {
         <div className="px-8 pb-48 bg-gray-100">
           <section className="leading-loose tracking-widest border border-gray-300 bg-gray-50">
             <div className="px-6 py-6">
-              <h1 className="font-bold text-1.5xl tracking-wide pb-8">
+              <h1 className="pb-8 text-xl sm:text-1.5xl font-bold tracking-wide">
                 APPLY FOR THIS ROLE
               </h1>
-              <form action="" className="flex flex-col space-y-6 text-sm">
+              <form
+                action=""
+                className="flex flex-col space-y-6 text-xxs sm:text-sm"
+              >
                 <label className="relative cursor-pointer">
                   <input
                     type="text"
@@ -302,14 +307,14 @@ export default function Positions() {
                     ADDITIONAL LINK (OPTIONAL)
                   </span>
                 </label>
-                <button className="w-full h-16 tracking-wider text-center text-gray-100 bg-black text-tiny">
+                <button className="w-full h-12 tracking-wider text-center text-gray-100 bg-black text-xxs sm:h-16 sm:text-tiny">
                   SUBMIT APPLICATION
                 </button>
               </form>
             </div>
           </section>
         </div>
-        <footer className="flex justify-between px-8 py-10 font-mono tracking-widest text-gray-400 bg-gray-100 border-t-2 border-gray-200 text-tiny">
+        <footer className="flex justify-between px-8 py-10 font-mono tracking-widest text-gray-400 bg-gray-100 border-t-2 border-gray-200 text-xxs sm:text-tiny">
           <h1>© HASHIRA 2022</h1>
           <h1>DARWINBALINO@GMAIL.COM</h1>
         </footer>

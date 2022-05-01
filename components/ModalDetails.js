@@ -6,25 +6,25 @@ const ModalDetails = ({ id }) => {
     <div className="relative flex flex-col bg-gray-50 rounded-3xl">
       <div className="relative">
         {/*image*/}
-        <div className="w-[565px] h-[570px]">
+        <div className="w-[355px] h-[360px] sm:w-[565px] sm:h-[570px]">
           <Image
             src={`/${id}.jpeg`}
             className="rounded-t-3xl"
             layout="fill"
-            alt=""
+            alt="hashira"
           />
         </div>
       </div>
       {/*Description*/}
-      <div className="px-6 pt-6 pb-10">
-        <h1 className="tracking-widest">HASHIRA</h1>
+      <div className="px-5 pt-4 pb-6 sm:pt-6 sm:pb-10 sm:px-6">
+        <h1 className="tracking-widest text-xxs sm:text-base">HASHIRA</h1>
         <div className="flex justify-between">
-          <h1 className="text-3xl font-extrabold">
+          <h1 className="text-1.5xl font-extrabold sm:text-3xl">
             {id} <span className="text-gray-500">//</span>
           </h1>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-7"
+            className="h-6 sm:h-7"
             viewBox="0 0 20 20"
             fill="currentColor"
           >

@@ -44,24 +44,20 @@ export default function HeadlessSlideOver({ open, setOpen, children }) {
                   leaveFrom="opacity-100"
                   leaveTo="opacity-0"
                 >
-                  <div className="absolute top-0 right-0 flex pt-5 pr-10 -ml-8">
+                  <div className="absolute top-0 right-0 flex pt-5 pr-5 -ml-8 sm:pr-10">
                     <button
                       className="z-20 text-gray-900 rounded-md hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
                       onClick={() => setOpen(false)}
                     >
                       <XIcon
-                        className="h-8 cursor-pointer gray-600"
+                        className="h-6 cursor-pointer sm:h-8 gray-600"
                         aria-hidden="true"
                       />
                     </button>
                   </div>
                 </Transition.Child>
                 <div className="flex flex-col h-full overflow-y-scroll shadow-xl bg-gray-50">
-                  <div className="relative flex-1">
-                    {/* Replace with your content */}
-                    {children}
-                    {/* /End replace */}
-                  </div>
+                  <div className="relative flex-1">{children}</div>
                 </div>
               </div>
             </Transition.Child>

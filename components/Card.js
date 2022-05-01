@@ -15,9 +15,11 @@ const Card = ({ id }) => {
             alt="hashira"
           />
         </div>
-        <div className="mt-3 tracking-widest text-center bg-transparent">
-          <h1 className="font-mono text-gray-500 text-tiny">HASHIRA</h1>
-          <h1 className="">NO. {id}</h1>
+        <div className="mt-2 tracking-widest text-center bg-transparent">
+          <h1 className="font-mono text-gray-500 text-xxxs sm:text-tiny">
+            HASHIRA
+          </h1>
+          <h1 className="text-xxs sm:text-sm">NO. {id}</h1>
         </div>
       </div>
     </Link>

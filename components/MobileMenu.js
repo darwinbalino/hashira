@@ -7,9 +7,8 @@ const MobileMenu = () => {
   const menu = useStore((state) => state.menu);
 
   return (
-    <div className="flex flex-col space-y-4 font-black text-2.5xl px-6 pt-4">
-      {/* <div className="flex relative flex-col backdrop-blur-xl space-y-4 font-black text-2.5xl px-6 pt-24"></div> */}
-      <Link href="/" passHref>
+    <div className="flex flex-col space-y-4 font-extrabold text-xl sm:text-2xl sm:font-black sm:text-2.5xl px-6 pt-5">
+      <Link href="/" className="" passHref>
         <div
           className="w-full pb-3 border-b border-gray-400 cursor-pointer"
           onClick={() => toggleMenu(!menu)}
@@ -25,16 +24,7 @@ const MobileMenu = () => {
           GALLERY
         </div>
       </Link>
-      {/* Fix rest of em */}
 
-      <Link href="/" passHref>
-        <div
-          onClick={() => toggleMenu(!menu)}
-          className="w-full pb-3 border-b border-gray-400 cursor-pointer"
-        >
-          THE GARDEN
-        </div>
-      </Link>
       <Link href="/careers" passHref>
         <div
           className="w-full pb-3 border-b border-gray-400 cursor-pointer"
@@ -52,28 +42,31 @@ const MobileMenu = () => {
           MANIFESTO
         </div>
       </Link>
-      <div className="pb-3 border-b border-gray-400 cursor-pointer">
-        MINDMAP
-      </div>
-      <div className="pb-3 border-b border-gray-400 cursor-pointer">SHOP</div>
       <a
         onClick={() => toggleMenu(!menu)}
         className="w-full pb-3 border-b border-gray-400 cursor-pointer"
-        href="https://www.instagram.com/azuki"
+        href="https://www.instagram.com/stewwboyz/"
+      >
+        TWITTER
+      </a>
+      <a
+        onClick={() => toggleMenu(!menu)}
+        className="w-full pb-3 border-b border-gray-400 cursor-pointer"
+        href="https://www.instagram.com/stewwboyz/"
       >
         INSTAGRAM
       </a>
       <a
         onClick={() => toggleMenu(!menu)}
         className="w-full pb-3 border-b border-gray-400 cursor-pointer"
-        href="https://discord.com/invite/azuki"
+        href="https://www.instagram.com/stewwboyz/"
       >
         DISCORD
       </a>
       <a
         onClick={() => toggleMenu(!menu)}
         className="w-full pb-3 border-b border-gray-400 cursor-pointer"
-        href="https://opensea.io/collection/azuki"
+        href="https://www.instagram.com/stewwboyz/"
       >
         OPENSEA
       </a>
